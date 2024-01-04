@@ -1,0 +1,15 @@
+{
+  "version": "0.2",
+  "ignorePaths": ["./.golangci.yaml", "./aqua*.yaml", "./aqua*.json"],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-dictionary",
+      "path": "./.cspell/custom-dictionary.txt",
+      "addWords": true
+    }
+  ],
+  "dictionaries": ["custom-dictionary"],
+  "words": [],
+  "ignoreWords": [],
+  "import": []
+}
